@@ -3,11 +3,11 @@ from PySide2.QtUiTools import QUiLoader
 from PySide2.QtGui import QGuiApplication
 from PySide2.QtCore import Signal, QObject
 
-from trans.baidu import Baidu
+import trans
 
 
 engines = {
-    '百度翻译': Baidu(),
+    '百度翻译': trans.Baidu(),
 }
 
 to_langs = {
@@ -29,7 +29,7 @@ class Translator:
         self.clipboard = QGuiApplication.clipboard()
 
         # 默认百度翻译、源语言自动识别、目标语言中文
-        self.engine = Baidu()
+        self.engine = trans.Baidu()
         self.from_lang = 'auto'
         self.to_lang = 'zh'
 
