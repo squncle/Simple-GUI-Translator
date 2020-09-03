@@ -9,6 +9,12 @@ class Baidu:
         self.api = 'http://api.fanyi.baidu.com/api/trans/vip/translate'
         self.appid = BAIDU['appid']
         self.appsecret = BAIDU['appsecret']
+        self.to_langs = {
+            '中文': 'zh',
+            '英语': 'en',
+            '日语': 'jp',
+            '韩语': 'kor',
+        }
 
     def translate(self, text, from_lang, to_lang, mysignal):
         params = {

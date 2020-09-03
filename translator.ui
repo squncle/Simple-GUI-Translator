@@ -33,6 +33,11 @@
          <string>百度翻译</string>
         </property>
        </item>
+       <item>
+        <property name="text">
+         <string>腾讯翻译</string>
+        </property>
+       </item>
       </widget>
      </item>
      <item>

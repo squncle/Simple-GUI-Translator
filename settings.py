@@ -6,3 +6,9 @@ BAIDU = {
     'appid': '',  # APPID
     'appsecret': '',  # 密钥
 }
+
+# 腾讯翻译开放平台官网 https://ai.qq.com/product/nlptrans.shtml
+TENCENT = {
+    'app_id': '',  # APPID
+    'app_key': '',  # APPKEY
+}

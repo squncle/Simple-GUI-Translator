@@ -8,13 +8,7 @@ import trans
 
 engines = {
     '百度翻译': trans.Baidu(),
-}
-
-to_langs = {
-    '中文': 'zh',
-    '英语': 'en',
-    '日语': 'jp',
-    '韩语': 'kor',
+    '腾讯翻译': trans.Tencent(),
 }
 
 
@@ -32,6 +26,7 @@ class Translator:
         self.engine = trans.Baidu()
         self.from_lang = 'auto'
         self.to_lang = 'zh'
+        self.to_langs = self.engine.to_langs
 
         self.clipboard.dataChanged.connect(self.automatically_translate)
         self.ui.pushButton.clicked.connect(self.manually_translate)
@@ -45,7 +40,8 @@ class Translator:
 
     def check_options(self):
         self.engine = engines[self.ui.comboBox.currentText()]
-        self.to_lang = to_langs[self.ui.comboBox_3.currentText()]
+        self.to_langs = self.engine.to_langs
+        self.to_lang = self.to_langs[self.ui.comboBox_3.currentText()]
 
     def automatically_translate(self):
         text = self.clipboard.text()
