@@ -12,3 +12,8 @@ TENCENT = {
     'app_id': '',  # APPID
     'app_key': '',  # APPKEY
 }
+
+# 彩云小译开放平台官网 https://dashboard.caiyunapp.com/ 每月100万免费字符
+CAIYUN = {
+    'token': '',  # 令牌
+}

@@ -38,6 +38,11 @@
          <string>腾讯翻译</string>
         </property>
        </item>
+       <item>
+        <property name="text">
+         <string>彩云小译</string>
+        </property>
+       </item>
       </widget>
      </item>
      <item>
