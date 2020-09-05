@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'translatorploLWC.ui'
+## Form generated from reading UI file 'translatoroLRaRN.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.0
 ##
@@ -32,6 +32,7 @@ class Ui_Form(object):
         self.horizontalLayout.addWidget(self.label)
 
         self.comboBox = QComboBox(Form)
+        self.comboBox.addItem("")
         self.comboBox.addItem("")
         self.comboBox.addItem("")
         self.comboBox.addItem("")
@@ -128,6 +129,7 @@ class Ui_Form(object):
         self.comboBox.setItemText(0, QCoreApplication.translate("Form", u"\u767e\u5ea6\u7ffb\u8bd1", None))
         self.comboBox.setItemText(1, QCoreApplication.translate("Form", u"\u817e\u8baf\u7ffb\u8bd1", None))
         self.comboBox.setItemText(2, QCoreApplication.translate("Form", u"\u5f69\u4e91\u5c0f\u8bd1", None))
+        self.comboBox.setItemText(3, QCoreApplication.translate("Form", u"\u8c37\u6b4c\u7ffb\u8bd1", None))
 
         self.label_4.setText(QCoreApplication.translate("Form", u"\u6e90\u8bed\u8a00", None))
         self.comboBox_2.setItemText(0, QCoreApplication.translate("Form", u"\u81ea\u52a8\u8bc6\u522b", None))

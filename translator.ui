@@ -43,6 +43,11 @@
          <string>彩云小译</string>
         </property>
        </item>
+       <item>
+        <property name="text">
+         <string>谷歌翻译</string>
+        </property>
+       </item>
       </widget>
      </item>
      <item>

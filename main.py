@@ -10,6 +10,7 @@ engines = {
     '百度翻译': trans.Baidu(),
     '腾讯翻译': trans.Tencent(),
     '彩云小译': trans.Caiyun(),
+    '谷歌翻译': trans.Google(),
 }
 
 
