@@ -11,6 +11,7 @@ engines = {
     '腾讯翻译': trans.Tencent(),
     '彩云小译': trans.Caiyun(),
     '谷歌翻译': trans.Google(),
+    '有道翻译': trans.Youdao(),
 }
 
 
@@ -24,10 +25,10 @@ class Translator:
         self.ms = MySignal()
         self.clipboard = QGuiApplication.clipboard()
 
-        # 默认百度翻译、源语言自动识别、目标语言中文
-        self.engine = trans.Baidu()
+        # 默认谷歌翻译、源语言自动识别、目标语言中文
+        self.engine = engines['谷歌翻译']
         self.from_lang = 'auto'
-        self.to_lang = 'zh'
+        self.to_lang = 'zh-CN'
         self.to_langs = self.engine.to_langs
 
         self.clipboard.dataChanged.connect(self.automatically_translate)

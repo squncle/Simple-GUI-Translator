@@ -30,6 +30,16 @@
       <widget class="QComboBox" name="comboBox">
        <item>
         <property name="text">
+         <string>谷歌翻译</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>有道翻译</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
          <string>百度翻译</string>
         </property>
        </item>
@@ -41,11 +51,6 @@
        <item>
         <property name="text">
          <string>彩云小译</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>谷歌翻译</string>
         </property>
        </item>
       </widget>
