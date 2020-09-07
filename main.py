@@ -1,15 +1,17 @@
-from PySide2.QtWidgets import QApplication
-from PySide2.QtUiTools import QUiLoader
+from PySide2.QtWidgets import QApplication, QWidget
 from PySide2.QtGui import QGuiApplication
 from PySide2.QtCore import Signal, QObject
+from translator_ui import Ui_Form
+import os
 
 import trans
 
 
+# 设置环境变量
+dirname = os.path.dirname(__file__)
+os.environ['QT_QPA_PLATFORM_PLUGIN_PATH'] = os.path.join(dirname, 'platforms')
+
 engines = {
-    '百度翻译': trans.Baidu(),
-    '腾讯翻译': trans.Tencent(),
-    '彩云小译': trans.Caiyun(),
     '谷歌翻译': trans.Google(),
     '有道翻译': trans.Youdao(),
 }
@@ -19,9 +21,11 @@ class MySignal(QObject):
     text_print = Signal(str, str)
 
 
-class Translator:
+class Translator(QWidget):
     def __init__(self):
-        self.ui = QUiLoader().load('translator.ui')
+        super().__init__()
+        self.ui = Ui_Form()
+        self.ui.setupUi(self)
         self.ms = MySignal()
         self.clipboard = QGuiApplication.clipboard()
 
@@ -57,5 +61,5 @@ class Translator:
 
 app = QApplication([])
 translator = Translator()
-translator.ui.show()
+translator.show()
 app.exec_()

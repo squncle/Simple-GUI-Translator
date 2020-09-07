@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>翻译器</string>
+   <string>三拳叔翻译器 v1.0</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_3">
    <item>
@@ -36,21 +36,6 @@
        <item>
         <property name="text">
          <string>有道翻译</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>百度翻译</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>腾讯翻译</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>彩云小译</string>
         </property>
        </item>
       </widget>
@@ -160,7 +145,8 @@
      <property name="text">
       <string>使用方法
 第一种：(推荐！！！即时翻译)复制任何您想要翻译的文字即可自动翻译 快捷键CTRL+C
-第二种：(手动翻译)将您需要翻译的文字输入在左侧输入框中，翻译后的内容将在右侧显示</string>
+第二种：(手动翻译)将您需要翻译的文字输入在左侧输入框中，翻译后的内容将在右侧显示
+(使用中有任何问题欢迎联系我 QQ1104751504)</string>
      </property>
     </widget>
    </item>

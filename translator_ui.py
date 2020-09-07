@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'translatoruOOXvM.ui'
+## Form generated from reading UI file 'translatorXbcPuY.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.0
 ##
@@ -32,9 +32,6 @@ class Ui_Form(object):
         self.horizontalLayout.addWidget(self.label)
 
         self.comboBox = QComboBox(Form)
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
         self.comboBox.addItem("")
         self.comboBox.addItem("")
         self.comboBox.setObjectName(u"comboBox")
@@ -125,13 +122,10 @@ class Ui_Form(object):
     # setupUi
 
     def retranslateUi(self, Form):
-        Form.setWindowTitle(QCoreApplication.translate("Form", u"\u7ffb\u8bd1\u5668", None))
+        Form.setWindowTitle(QCoreApplication.translate("Form", u"\u4e09\u62f3\u53d4\u7ffb\u8bd1\u5668 v1.0", None))
         self.label.setText(QCoreApplication.translate("Form", u"\u7ffb\u8bd1\u5f15\u64ce", None))
         self.comboBox.setItemText(0, QCoreApplication.translate("Form", u"\u8c37\u6b4c\u7ffb\u8bd1", None))
         self.comboBox.setItemText(1, QCoreApplication.translate("Form", u"\u6709\u9053\u7ffb\u8bd1", None))
-        self.comboBox.setItemText(2, QCoreApplication.translate("Form", u"\u767e\u5ea6\u7ffb\u8bd1", None))
-        self.comboBox.setItemText(3, QCoreApplication.translate("Form", u"\u817e\u8baf\u7ffb\u8bd1", None))
-        self.comboBox.setItemText(4, QCoreApplication.translate("Form", u"\u5f69\u4e91\u5c0f\u8bd1", None))
 
         self.label_4.setText(QCoreApplication.translate("Form", u"\u6e90\u8bed\u8a00", None))
         self.comboBox_2.setItemText(0, QCoreApplication.translate("Form", u"\u81ea\u52a8\u8bc6\u522b", None))
@@ -147,6 +141,7 @@ class Ui_Form(object):
         self.label_3.setText(QCoreApplication.translate("Form", u"\u7ffb\u8bd1\u540e", None))
         self.label_6.setText(QCoreApplication.translate("Form", u"\u4f7f\u7528\u65b9\u6cd5\n"
 "\u7b2c\u4e00\u79cd\uff1a(\u63a8\u8350\uff01\uff01\uff01\u5373\u65f6\u7ffb\u8bd1)\u590d\u5236\u4efb\u4f55\u60a8\u60f3\u8981\u7ffb\u8bd1\u7684\u6587\u5b57\u5373\u53ef\u81ea\u52a8\u7ffb\u8bd1 \u5feb\u6377\u952eCTRL+C\n"
-"\u7b2c\u4e8c\u79cd\uff1a(\u624b\u52a8\u7ffb\u8bd1)\u5c06\u60a8\u9700\u8981\u7ffb\u8bd1\u7684\u6587\u5b57\u8f93\u5165\u5728\u5de6\u4fa7\u8f93\u5165\u6846\u4e2d\uff0c\u7ffb\u8bd1\u540e\u7684\u5185\u5bb9\u5c06\u5728\u53f3\u4fa7\u663e\u793a", None))
+"\u7b2c\u4e8c\u79cd\uff1a(\u624b\u52a8\u7ffb\u8bd1)\u5c06\u60a8\u9700\u8981\u7ffb\u8bd1\u7684\u6587\u5b57\u8f93\u5165\u5728\u5de6\u4fa7\u8f93\u5165\u6846\u4e2d\uff0c\u7ffb\u8bd1\u540e\u7684\u5185\u5bb9\u5c06\u5728\u53f3\u4fa7\u663e\u793a\n"
+"(\u4f7f\u7528\u4e2d\u6709\u4efb\u4f55\u95ee\u9898\u6b22\u8fce\u8054\u7cfb\u6211 QQ1104751504)", None))
     # retranslateUi
 
